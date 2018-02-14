@@ -21,7 +21,7 @@ int main(){
         p[i].wt = 0;
     }
     printf("\n");
-    printf("Enter execute times respectively: \n");
+    printf("Enter execute/burst times respectively: \n");
     for(i = 0; i < n; i++){
         scanf("%d", &p[i].et);
     }
